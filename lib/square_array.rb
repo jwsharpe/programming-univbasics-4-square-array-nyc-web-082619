@@ -5,4 +5,5 @@ def square_array(array)
     squared.push(array[i].shift ** 2)
     i += 1
   end
+  return squared
 end
