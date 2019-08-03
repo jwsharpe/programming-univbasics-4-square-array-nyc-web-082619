@@ -4,4 +4,5 @@ def square_array(array)
   while array[i] do
     sqaured.push(array[i].shift ** 2)
     i += 1
+  end
 end
